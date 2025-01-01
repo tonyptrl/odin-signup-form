@@ -8,11 +8,16 @@ body {
   display: flex;
 }
 
+a {
+  color: inherit;
+}
+
 .left-side {
   flex: 1;
   height: 100vh;
   background-image: url(/images/background-image.jpg);
   background-size: cover;
+  position: relative;
 }
 
 .background-logo {
@@ -34,6 +39,14 @@ body {
   font-size: 100px;
   font-family: NorseBold;
   padding-top: 20px;
+}
+
+.creator-credit {
+  color: white;
+  text-align: center;
+  bottom: 10px;
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
 }
 
 .right-side {
